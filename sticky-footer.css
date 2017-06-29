@@ -10,9 +10,18 @@ body {
   background-image: url("assets/images/triangular.png");
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 h1, h2 {
   color:#4aaaa5;
   font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
 }
 
 .navbar-default {
@@ -27,9 +36,10 @@ h1, h2 {
 }
 
 .navbar-brand{
-  width:140px;
+  width:182px;
   display: block;
   color:#ffffff !important;
+  font-size: 26px;
 }
 
 
@@ -51,8 +61,14 @@ h1, h2 {
   background:#ffffff;
 }
 
+.panel-heading {
+  background: #ffffff !important;
+}
+
 .panel-title {
   color:#4aaaa5;
+  text-align: center;
+  background: #ffffff !important;
 }
 /* Custom page CSS
 -------------------------------------------------- */
@@ -74,7 +90,6 @@ h1, h2 {
 
 .col-xs-4 {
   display:block;
-  vertical-align: bottom;
 }
 
 .btn-primary {
